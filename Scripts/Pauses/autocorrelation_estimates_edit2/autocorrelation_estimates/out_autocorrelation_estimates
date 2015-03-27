@@ -1,0 +1,4 @@
+fname: ceremony sample short Brienne noise.wav, sampling rate: 44100 
+wtype: 1, window length: 1764, window shift: 6.615000e+02
+maximum lag: 551, clipping pct: 60, low period: 154 
+ss: 66498, peak1/2/3/4: 271 269 270 270, level1/2/3/4: 0.85 0.93 0.90 0.87 
