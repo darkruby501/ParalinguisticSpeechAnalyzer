@@ -4,7 +4,7 @@
 
 This repository contains the work from my undergraduate honour's thesis completed at Monash University. The code herein extracts and analyses paralinguistic/non-linguistic aspects of speech, as described in this README. I am grateful to my supervisor, Professor Tom Drummond, for his assistance with this project.
 
-[Detailed Report](/Documents/Paralinguistic Speech Analyser Final Report.pdf) |
+[Detailed Report](https://github.com/darkruby501/ParalinguisticSpeechAnalyzer/raw/master/Documents/Paralinguistic%20Speech%20Analyser%20Final%20Report.pdf) |
 [Slide Presentation](/Documents/PSA Slide Deck.pdf) |
 [Poster](/Documents/Poster R Bloom Final.png)
 
@@ -29,7 +29,7 @@ Interesting paralinguistic facts:
 ### Sounds cool! How do I try it?
 1. The scripts can be run in Matlab (and possibly Octave, although I haven't tested that).
 2. A web demo is planned, but that will take some time. This project was written in Matlab, one of primary languages for signal processing development alongside C/C++. Unfortunately, there are no web frameworks for Matlab and setting up this code in an online interative demo will require a port. But that is planned!
-3. You can read the detailed [report](/Documents/Paralinguistic Speech Analyser Final Report.pdf) on this project or view the [poster](/Documents/Poster R Bloom Final.png).
+3. You can read the detailed [report](https://github.com/darkruby501/ParalinguisticSpeechAnalyzer/raw/master/Documents/Paralinguistic%20Speech%20Analyser%20Final%20Report.pdf) on this project or view the [poster](/Documents/Poster R Bloom Final.png).
 
 ### Poster
 ![](https://github.com/darkruby501/ParalinguisticSpeechAnalyzer/blob/master/Images/poster_bottom.PNG)
