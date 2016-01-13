@@ -8,8 +8,8 @@
 % filename = 'D:\Users\RMB\Drive\Monash\ECE4095\Code\FYP\Scripts\Speech Samples\ceremony_44_mono.wav';
 % filename = 'D:\Users\RMB\Drive\Monash\ECE4095\Code\FYP\Scripts\Speech Samples\ceremony_sample_mono.wav';
 % filename = 'D:\Users\RMB\Drive\Monash\ECE4095\Code\FYP\Scripts\Speech Samples\ceremony_sample_short_Brienne_noise.wav';
-% filename = 'D:\Users\RMB\Drive\Monash\ECE4095\Code\FYP\Scripts\Speech Samples\M05_short.wav';
-filename = 'D:\Users\RMB\Drive\Monash\ECE4095\Code\FYP\Scripts\Speech Samples\Miranda_passage';
+filename = 'D:\Users\RMB\Drive\Monash\ECE4095\Code\FYP\Scripts\Speech Samples\M05_short1.wav';
+% filename = 'D:\Users\RMB\Drive\Monash\ECE4095\Code\FYP\Scripts\Speech Samples\Miranda_passage';
 
 [wavfile,fs,nbits] = wavread(filename);
 
@@ -81,8 +81,8 @@ EnergyVec = (Energy_Contour > (Max_E - e_diff_thresh));
 
 %% Smoothing
 
-PauseVec_n = GlitchDetector(PauseVec_n,fs,min_pause,min_speech);
-EnergyVec = GlitchDetector(EnergyVec,fs,min_pause,min_speech);
+PauseVec_n = GlitchDetector(PauseVec_n,fs,min_pause,min_speech,0);
+EnergyVec = GlitchDetector(EnergyVec,fs,min_pause,min_speech,0);
 
 %% Combining
 SpeechVec = PauseVec_n & EnergyVec;

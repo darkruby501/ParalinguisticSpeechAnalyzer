@@ -1,4 +1,7 @@
 *.wav
+**/Speech Samples/
+*.zip
+*.mat
 
 #################
 ## Eclipse

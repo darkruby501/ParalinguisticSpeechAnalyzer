@@ -17,8 +17,6 @@ for i = zp+1:length(a)
     sum(a(i-lenb-1:i)*
 
 
-%UNTITLED Summary of this function goes here
-%   Detailed explanation goes here
 
 
 end

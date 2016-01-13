@@ -4,7 +4,6 @@ function [ac_speech_flag,ac_vec,phi0,L,R,se,snext,frame_energy] = stacf_fyp(x_in
 
 % 28-03-15 Function is working kind of nicely
 
-subplot(2,1,1)
 
 
 %% Variables
@@ -64,7 +63,7 @@ ac_vec = ac_x1;
 
 %     subplot(2,1,2)
 %     plot(lags(K+1:end),ac_x1);
-    grid on
+%     grid on
 
 [peaks, peak_loc] = findpeaks(ac_x1(Klow:end));
 
