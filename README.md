@@ -1,12 +1,11 @@
 # Paralinguistic Speech Analyser
 ![Speech Waveform](https://github.com/darkruby501/ParalinguisticSpeechAnalyzer/blob/master/Images/speech_waveform2.PNG)
 
-##### *There is no index of character so sure as the voice* - Benjamin Disraeli, British Prime Minister
 
 This repository contains the work from my undergraduate honour's thesis completed at Monash University. The code herein extracts and analyses paralinguistic/non-linguistic aspects of speech, as described in this README. I am grateful to my supervisor, Professor Tom Drummond, for his assistance with this project.
 
-[Detailed report](/Documents/Paralinguistic Speech Analyser Final Report.pdf)|
-[Slide presentation](/Documents/PSA Slide Deck.pdf)|
+[Detailed Report](/Documents/Paralinguistic Speech Analyser Final Report.pdf) |
+[Slide Presentation](/Documents/PSA Slide Deck.pdf) |
 [Poster](/Documents/Poster R Bloom Final.png)
 
 ### What are paralinguistics? And why should I care?
@@ -23,7 +22,7 @@ Interesting paralinguistic facts:
 * Uses state-of-the-art VAD (Voice Activity Detection) algorithms to detect pauses in speech and segment it into utterances.
 * Uses pitch extraction algorithms to extract global and varying pitch features.
 * Analyes pitch movements during speech, including High Rising Terminal (Up-talk) and Falling Intonation.
-* Runs the above on a speech recording and produces a report.
+* Performs the above on a speech recording and produces a report.
 
 * Additionally, for my honour's thesis I applied this tool recordings to highly charismatic speakers (6 TED talks) matched with less charismatic speakers (undergraduate psychology studends delivering presentations). Details in the report.
 
