@@ -1,7 +1,7 @@
 # Paralinguistic Speech Analyser
-#### *There is no index of character so sure as the voice* - Benjamin Disraeli, British Prime Minister
+![Speech Waveform](https://github.com/darkruby501/ParalinguisticSpeechAnalyzer/blob/master/Images/speech_waveform2.PNG)
 
-![](/Images/speech_waveform.png)
+##### *There is no index of character so sure as the voice* - Benjamin Disraeli, British Prime Minister
 
 This repository contains the work from my undergraduate honour's thesis completed at Monash University. The code herein extracts and analyses paralinguistic/non-linguistic aspects of speech, as described in this README. I am grateful to my supervisor, Professor Tom Drummond, for his assistance with this project.
 
@@ -32,3 +32,5 @@ Interesting paralinguistic facts:
 2. A web demo is planned, but that will take some time. This project was written in Matlab, one of primary languages for signal processing development alongside C/C++. Unfortunately, there are no web frameworks for Matlab and setting up this code in an online interative demo will require a port. But that is planned!
 3. You can read the detailed [report](/Documents/Paralinguistic Speech Analyser Final Report.pdf) on this project or view the [poster](/Documents/Poster R Bloom Final.png).
 
+### Poster
+![](https://github.com/darkruby501/ParalinguisticSpeechAnalyzer/blob/master/Images/poster_bottom.PNG)
